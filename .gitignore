@@ -1,2 +1,5 @@
 .idea
-/dist/
+/dist
+/laughbit.egg-info
+/build
+
