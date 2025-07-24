@@ -1,4 +1,0 @@
-requests
-typer
-rich
-typing_extensions
