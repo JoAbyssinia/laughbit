@@ -53,25 +53,3 @@ category: Dark
 Why did the invisible man turn down the job offer?
 He couldn't see himself doing it.
 ```
-
-## Publishing to PyPI
-
-To package and publish your own version of LaughBit to PyPI, you'll need to have `build` and `twine` installed:
-
-```bash
-pip install build twine
-```
-
-Once you have those installed, you can build the distribution files:
-
-```bash
-python -m build
-```
-
-And then upload them to PyPI:
-
-```bash
-twine upload dist/*
-```
-
-You will be prompted for your PyPI username and password. It's recommended to use an API token instead of your password for better security.
