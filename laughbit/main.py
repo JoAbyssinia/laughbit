@@ -13,7 +13,7 @@ URL = "https://v2.jokeapi.dev/joke"
 blacklist = "nsfw,racist,religious"
 categories = ["Any", "Misc", "Programming", "Dark", "Pun", "Spooky", "Christmas"]
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 def version_callback(value: bool):
     if value:
